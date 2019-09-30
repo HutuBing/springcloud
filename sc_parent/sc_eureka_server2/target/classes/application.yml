@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sc-eureka-server2
+server:
+  port: 8202
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8201/eureka/
