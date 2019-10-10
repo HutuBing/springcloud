@@ -12,6 +12,9 @@
         <module>sc_eureka_server</module>
         <module>sc_eureka_client</module>
         <module>sc_eureka_server2</module>
+        <module>sc_consul_discovery</module>
+        <module>sc_consul_discovery2</module>
+        <module>sc_feign_service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
