@@ -15,6 +15,8 @@
         <module>sc_consul_discovery</module>
         <module>sc_consul_discovery2</module>
         <module>sc_feign_service</module>
+        <module>sc_config_server</module>
+        <module>sc_config_client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sc-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HutuBing/ScConfigCenter/
+          search-paths: configRepo
+          username:
+          password:
+      label: master
+server:
+  port: 8207
